@@ -16,72 +16,35 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textAppearance="?android:textAppearanceLarge"
-        android:text="@string/titulo"
-        android:onClick="exibirInfo" />
+        android:text="@string/titulo" />
 
     <Button
-        android:id="@+id/btnApp1"
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:background="#263238"
-        android:textColor="@android:color/white"
+        android:id="@+id/btnFilmes"
         android:text="@string/app1"
-        android:layout_marginTop="@dimen/btn_margin"
-        android:layout_marginBottom="@dimen/btn_margin"
-        android:onClick="exibirInfo" />
+        style="@style/botaoTelaInicial" />
 
     <Button
-        android:id="@+id/btnApp2"
-        android:layout_width="@dimen/btn_width"
-        android:layout_height="@dimen/btn_height"
-        android:layout_gravity="center"
-        android:background="#263238"
-        android:textColor="@android:color/white"
+        android:id="@+id/btnStock"
         android:text="@string/app2"
-        android:layout_marginBottom="@dimen/btn_margin"
-        android:onClick="exibirInfo" />
+        style="@style/botaoTelaInicial" />
 
     <Button
-        android:id="@+id/btnApp3"
-        android:layout_width="@dimen/btn_width"
-        android:layout_height="@dimen/btn_height"
-        android:layout_gravity="center"
-        android:background="#263238"
-        android:textColor="@android:color/white"
+        android:id="@+id/btnFacaMaior"
         android:text="@string/app3"
-        android:layout_marginBottom="@dimen/btn_margin"
-        android:onClick="exibirInfo" />
+        style="@style/botaoTelaInicial" />
 
     <Button
-        android:id="@+id/btnApp4"
-        android:layout_width="@dimen/btn_width"
-        android:layout_height="@dimen/btn_height"
-        android:layout_gravity="center"
-        android:background="#263238"
-        android:textColor="@android:color/white"
+        android:id="@+id/btnMaterial"
         android:text="@string/app4"
-        android:layout_marginBottom="@dimen/btn_margin"
-        android:onClick="exibirInfo" />
+        style="@style/botaoTelaInicial" />
 
     <Button
-        android:id="@+id/btnApp5"
-        android:layout_width="@dimen/btn_width"
-        android:layout_height="@dimen/btn_height"
-        android:layout_gravity="center"
-        android:background="#263238"
-        android:textColor="@android:color/white"
+        android:id="@+id/btnOnipresente"
         android:text="@string/app5"
-        android:layout_marginBottom="@dimen/btn_margin"
-        android:onClick="exibirInfo" />
+        style="@style/botaoTelaInicial" />
 
     <Button
-        android:id="@+id/btnApp6"
-        android:layout_width="@dimen/btn_width"
-        android:layout_height="@dimen/btn_height"
-        android:layout_gravity="center"
-        android:background="#263238"
-        android:textColor="@android:color/white"
+        android:id="@+id/btnCapstone"
         android:text="@string/app6"
-        android:onClick="exibirInfo" />
+        style="@style/botaoTelaInicial" />
 </LinearLayout>
